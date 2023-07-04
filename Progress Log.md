@@ -31,7 +31,14 @@ gene_info = pd.read_csv("geneinfo_beta.txt",sep='\t')
 landmark_gene_ids = gene_info["gene_id"][gene_info["feature_space"] == "landmark"]
 ```
 
-- we may have to parse the 52GB big file so that every rid/cid are in the returned list. Or we have to obtain the rid/cid and take the interception of them.
+## Extracting gene perturbation profile
+take other treatment file as example
+```python
+other_treatment_row_metadata = parse('level5_beta_other_treatment.gctx',cid=landmark_gene_ids)
+```
+`parse_gctx check_id_validity some of the ids being used to subset the data are not present in the metadata for the file being parsed`
+
+we may have to parse the 52GB big file so that every rid/cid are in the returned list. Or we have to obtain the rid/cid and take the interception of them.
 
 # Summary table of the data we may use for perturbation profile generation task.
 
