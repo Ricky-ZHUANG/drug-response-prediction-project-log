@@ -44,5 +44,5 @@ we may have to parse the 52GB big file so that every rid/cid are in the returned
 
 | **Drug** | **Perturbation** | **Signature** | **Cell line** | **Gene** |
 |----------|------------------|---------------|---------------|----------|
-|   39319  |       83588      |    1201944    |      248      |    978   |
+|   39319  |       34418      |    720216     |      248      |    978   |
 ***
