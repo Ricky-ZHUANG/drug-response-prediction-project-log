@@ -40,6 +40,7 @@ other_treatment_row_metadata = parse('level5_beta_other_treatment.gctx',cid=land
 
 we may have to parse the 52GB big file so that every rid/cid are in the returned list. Or we have to obtain the rid/cid and take the interception of them.
 
+(這個還要改，drug那裏它1個藥有2個target是儅2行來寫的)
 # Summary table of the data we may use for perturbation profile generation task.
 
 | **Drug** | **Perturbation** | **Signature** | **Cell line** | **Gene** |
