@@ -56,3 +56,6 @@ About dose
 
 About perturbation duration
 - The duration of perturbation is also important because it takes time for perturbagens to change the DNA expression, like go through liver and spread the the whole body)
+
+signature is used to measure the difference between 2 perturbagens. (according 1st version)
+***
