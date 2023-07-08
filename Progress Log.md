@@ -48,18 +48,19 @@ we may have to parse the 52GB big file so that every rid/cid are in the returned
 |   28576(check in the big matrix)  |       34418      |    720216     |      248      |    978   |
 ***
 
-About dose
+##About dose
   ```
   Concentration and duration of treatment. High-throughput, cell-based small-molecule screens are often performed at a single, relatively high concentration of 10 mM.
   For some compounds, we used concentrations reported to be effective in cell culture or to approximate the maximum attainable plasma concentrations after therapeutic dosing
   ```
 
-About perturbation duration
+##About perturbation duration
 ```
   The duration of perturbation is also important because it takes time for perturbagens to change the DNA expression, like go through liver and spread the the whole body)
 ```
 
-About signature
+##About signature
+
 Cmap uses signature to encode the information of a single treatment (like drug, target, dose, treatment duration).
 
 The whole process be like:
