@@ -60,11 +60,11 @@ About perturbation duration
 ```
 
 About signature
-```
-  signature is used to measure the difference between 2 perturbagens. (according 1st version)
-  Cmap is a tool for mining small molecules that share similar gene expression
-```
+Cmap uses signature to encode the information of a single treatment (like drug, target, dose, treatment duration).
 
-基因表達譜的意義：可能是說，這個藥物對於這個基因的影響能力從-1去到1
-`After the query signature (mRNA expression level was significantly changed) was found from the drug or disease, the connectivity scores of each drug molecule in the database ranging from −1 to 1 (from completely negative correlation to completely positive correlation) were available by querying the Connectivity Map.`
+The whole process be like:
+
+set1 is using drug treatment, set2 is no drug treatment. Obtain the 2 gene expression profile (i.e. one is before treatment another is post treatment) via L1000 method. The 2 gene expression profile are the signature.
+
+People can use the signature to measure the difference/similarity between drugs.
 ***
