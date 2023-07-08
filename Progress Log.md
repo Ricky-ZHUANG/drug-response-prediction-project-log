@@ -45,8 +45,9 @@ we may have to parse the 52GB big file so that every rid/cid are in the returned
 
 | **Drug** | **Perturbation** | **Signature** | **Cell line** | **Gene** |
 |----------|------------------|---------------|---------------|----------|
-|   28576(check in the big matrix)  |       34418      |    720216     |      248      |    978   |
+|   28576  |       34418      |    720216     |      248      |    978   |
 ***
+720216個signature(i.e. 720216個實驗)，28576種藥物/perturbagens，978個landmark基因。（Perturbation數目比藥物多是因爲一個藥物兩個target會被記錄兩次，但是他們的pert_id是一樣的）
 
 ## About dose
   ```
