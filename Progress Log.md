@@ -75,3 +75,7 @@ People can use the signature to measure the difference/similarity between drugs.
 C. Validation of L1000 probes using shRNA knockdown. MCF7 and PC3 cells transduced with shRNAs targeting 955 landmark genes. Differential expression values (z-scores) were computed for each landmark and the percentile rank of expression z-scores in the experiment in which it was targeted relative to all other experiments was computed.
 ```
 so it used `differential expression value`
+```
+为了测量 1,000 个标志性转录本，我们采用了一种涉及连接介导扩增 (LMA) 的方法，然后在荧光寻址微球上捕获扩增产物（Peck 等人，2006）。我们将此方法扩展到 1,000 重反应（图1A; 协议请参见clue.io/sop-L1000.pdf）。
+```
+這個是用來measure那987個landmark基因的方法
